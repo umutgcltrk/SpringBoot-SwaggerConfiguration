@@ -21,7 +21,7 @@ public class CampingApplication {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.example.camping")) //camping'i gez oradaki apileri bul dökümantasyonu yap demek.
+				.apis(RequestHandlerSelectors.basePackage("projenin paket yolu")) //camping'i gez oradaki apileri bul dökümantasyonu yap demek.
 				.build();
 	}
 }
